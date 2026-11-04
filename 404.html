@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Jun Jeon, MD</title>
-    <meta http-equiv="refresh" content="0; url=/" />
+    <!--
+      Go to /index.html, not /. Browsers that visited the old Notion site cached a
+      permanent redirect from / to the Notion page path, which now 404s; sending
+      them to / would loop. /index.html serves the home page and was never cached.
+    -->
+    <meta http-equiv="refresh" content="0; url=/index.html" />
+    <script>location.replace("/index.html");</script>
     <link rel="canonical" href="https://junjeon.com/" />
   </head>
   <body>
