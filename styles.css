@@ -124,6 +124,12 @@ h1 {
   text-wrap: pretty;
 }
 
+.bio .lead {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--ink);
+}
+
 .links {
   display: flex;
   justify-content: center;
