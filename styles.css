@@ -60,6 +60,7 @@ body::before {
 .intro > :nth-child(3) { animation-delay: 140ms; }
 .intro > :nth-child(4) { animation-delay: 200ms; }
 .intro > :nth-child(5) { animation-delay: 260ms; }
+.intro > :nth-child(6) { animation-delay: 320ms; }
 
 .portrait {
   display: block;
@@ -84,8 +85,16 @@ h1 {
   letter-spacing: -0.025em;
 }
 
+.role {
+  margin: 0.5rem 0 0;
+  color: var(--ink);
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
 .tagline {
-  margin: 0.55rem 0 0;
+  margin: 0.45rem 0 0;
   color: var(--ink-soft);
   font-size: 0.72rem;
   font-weight: 500;
